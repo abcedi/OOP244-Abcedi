@@ -1,0 +1,56 @@
++---Welcome to SeneGraph--------+
++--------------------------+
+| No Of Samples: 0         |
++--------------------------+
+| 1- Set Number of Samples |
+| 2- Enter Samples         |
+| 3- Graphs                |
+| 0- Exit                  |
+\ > 3                      /
+Number of Samples must be set first!
++--------------------------+
+| No Of Samples: 0         |
++--------------------------+
+| 1- Set Number of Samples |
+| 2- Enter Samples         |
+| 3- Graphs                |
+| 0- Exit                  |
+\ > 1                      /
+Enter number of available samples: 3
++--------------------------+
+| No Of Samples: 3         |
++--------------------------+
+| 1- Set Number of Samples |
+| 2- Enter Samples         |
+| 3- Graphs                |
+| 0- Exit                  |
+\ > 2                      /
+Please enter the sample values:
++--------------------------+
+\ 1/3 : 20                 /
++--------------------------+
+\ 2/3 : 50                 /
++--------------------------+
+\ 3/3 : 100                /
++--------------------------+
+| No Of Samples: 3         |
++--------------------------+
+| 1- Set Number of Samples |
+| 2- Enter Samples         |
+| 3- Graphs                |
+| 0- Exit                  |
+\ > 3                      /
++--- SeneGraph -----------------------------------------------------------+
+| ************* 20                                                        |
+| ******************************** 50                                     |
+| ***************************************************************** 100   |
++-------------------------------------------------------------------------+
++--------------------------+
+| No Of Samples: 3         |
++--------------------------+
+| 1- Set Number of Samples |
+| 2- Enter Samples         |
+| 3- Graphs                |
+| 0- Exit                  |
+\ > 0                      /
+Thanks for using SeneGraph

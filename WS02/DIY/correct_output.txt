@@ -1,0 +1,64 @@
+Testing Guest Functiosn:
+
+Testing bad setting
+---------------
+Vacated!
+Vacated!
+Vacated!
+Vacated!
+
+Testing Good setting
+---------------
+Jane Doe
+Vacated!
+------------------------
+
+Testing Guest booking:
+--- Enter the following:
+Jake
+Doe
+10
+------------------------
+Name: Jake
+Lastname: Doe
+Age: 10
+Jake Doe(Child)
+Vacated!
+
+Testing Room Functions: 
+Room Number: A1010
+    Vacated!
+    Vacated!
+Empty Room!
+------------------------
+Testing Room booking:
+--- Enter the following:
+A1010
+2
+Jane
+Doe
+30
+Jake
+Doe
+10
+------------------------
+Room number: A1010
+Number of guests: 2
+1:
+Name: Jane
+Lastname: Doe
+Age: 30
+2:
+Name: Jake
+Lastname: Doe
+Age: 10
+
+Room booking data:
+------------------------
+Room Number: A1010
+    Jane Doe
+    Jake Doe(Child)
+
+Printing vacated Room:
+------------------------
+Empty Room!

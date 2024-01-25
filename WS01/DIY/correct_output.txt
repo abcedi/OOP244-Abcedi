@@ -1,0 +1,64 @@
+Enter filename to generate report for or 'X' to exit:
+> grp.csv
+Can not open "grp.csv"!
+Enter filename to generate report for or 'X' to exit:
+> group1.csv
++---Students' mark distribution-----------------------------------------------+
+100 | *** 3                                                                   |
+90  | ** 2                                                                    |
+80  | **** 4                                                                  |
+70  | *** 3                                                                   |
+60  | **** 4                                                                  |
+50  | **** 4                                                                  |
+40  | ****** 6                                                                |
+30  | ******* 7                                                               |
+20  | *** 3                                                                   |
+10  | ******* 7                                                               |
++-----------------------------------------------------------------------------+
+1  : [97 ] Savannah Bowers
+2  : [96 ] Graham Mueller
+3  : [94 ] Josiah Munoz
+4  : [85 ] Jovie Guzman
+5  : [85 ] Kehlani Velez
+6  : [80 ] Katherine Barber
+7  : [79 ] Thaddeus Stevens
+8  : [75 ] Kareem Palacios
+9  : [72 ] Indie Porter
+10 : [68 ] Alexis Preston
+11 : [67 ] Jensen Galindo
+12 : [65 ] Darwin Beltran
+13 : [60 ] Davian Molina
+14 : [59 ] Kai Cortes
+15 : [54 ] Phillip Becker
+16 : [53 ] Alexandria McMahon
+17 : [48 ] Kaydence Finley
+18 : [42 ] Aliyah Friedman
+19 : [42 ] Emelia Palacios
+20 : [41 ] Calum Ryan
+21 : [40 ] Jude Boyer
+22 : [40 ] Mohamed Nichols
+23 : [34 ] Laura Duarte
+24 : [34 ] Kaliyah Santana
+25 : [34 ] Morgan Roberts
+26 : [33 ] Jefferson Finley
+27 : [30 ] Lea Rice
+28 : [29 ] Ada Burgess
+29 : [27 ] Phoenix Good
+30 : [27 ] Jakob Adkins
+31 : [25 ] Abdullah Rice
+32 : [22 ] Rhett Ahmed
+33 : [21 ] Bria Cardenas
+34 : [17 ] Corinne Barry
+35 : [14 ] Emery Hess
+36 : [11 ] Imani Sawyer
+37 : [10 ] Jolie Conner
+38 : [10 ] Chaya Acosta
+39 : [10 ] Solomon Gutierrez
+40 : [7  ] Johnathan Lucas
+41 : [4  ] Hope Townsend
+42 : [3  ] Kolton Hubbard
+43 : [1  ] Rosie Castillo
+----------------------------------------
+Enter filename to generate report for or 'X' to exit:
+> x
+Exiting program!

@@ -1,0 +1,14 @@
+16
+70.9,Applied Problem Solving
+55.5,Computer Principles for Programmers
+63.8,Communicating Across Contexts 
+88,Introduction to Programming Using C
+78.9,Introduction to UNIX/Linux and the Internet
+98,Introduction to Database Systems
+100,Data Communications Fundamentals
+83.3,Introduction to Object Oriented Programming
+50,Web Programming Principles
+77.2,Advanced Database Services
+85.5,Object-Oriented Software Development Using C++
+90,Software Analysis and Design - I
+95,Web Programming Tools and Framework
