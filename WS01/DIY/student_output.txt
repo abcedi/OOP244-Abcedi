@@ -1,9 +1,9 @@
-Script started on Sun 14 Jan 2024 10:10:51 PM EST
-==162786== Memcheck, a memory error detector
-==162786== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==162786== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
-==162786== Command: ws.exe
-==162786== 
+Script started on Wed 24 Jan 2024 11:53:55 PM EST
+==222646== Memcheck, a memory error detector
+==222646== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==222646== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==222646== Command: ws
+==222646== 
 Enter filename to generate report for or 'X' to exit:
 > group3.csv
 +---Students' mark distribution
@@ -690,13 +690,25 @@ Enter filename to generate report for or 'X' to exit:
 Enter filename to generate report for or 'X' to exit:
 > x
 Exiting program!
-==162786== 
-==162786== HEAP SUMMARY:
-==162786==     in use at exit: 0 bytes in 0 blocks
-==162786==   total heap usage: 2 allocs, 2 frees, 73,272 bytes allocated
-==162786== 
-==162786== All heap blocks were freed -- no leaks are possible
-==162786== 
-==162786== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==222646== 
+==222646== HEAP SUMMARY:
+==222646==     in use at exit: 568 bytes in 1 blocks
+==222646==   total heap usage: 666 allocs, 665 frees, 90,626 bytes allocated
+==222646== 
+==222646== 568 bytes in 1 blocks are still reachable in loss record 1 of 1
+==222646==    at 0x4C29F73: malloc (vg_replace_malloc.c:309)
+==222646==    by 0x578CC4C: __fopen_internal (in /usr/lib64/libc-2.17.so)
+==222646==    by 0x400CEA: seneca::openFile(char const*) (file.cpp:10)
+==222646==    by 0x40159A: seneca::printReport(char const*) (StMark.cpp:24)
+==222646==    by 0x4014B2: main (main_prof.cpp:28)
+==222646== 
+==222646== LEAK SUMMARY:
+==222646==    definitely lost: 0 bytes in 0 blocks
+==222646==    indirectly lost: 0 bytes in 0 blocks
+==222646==      possibly lost: 0 bytes in 0 blocks
+==222646==    still reachable: 568 bytes in 1 blocks
+==222646==         suppressed: 0 bytes in 0 blocks
+==222646== 
+==222646== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 
-Script done on Sun 14 Jan 2024 10:11:01 PM EST
+Script done on Wed 24 Jan 2024 11:54:01 PM EST

@@ -1,6 +1,5 @@
 # Workshop #1: Modules   
 - Version 1.0
-- Version 1.1 (DIY) Added [a sort algorithm](#sort-algorithm) to sort the marks with
 
 In the process of doing your first workshop, in part 1 you are to subdivide a program into modules, compile each module separately and construct an executable from the results of each compilation. In Part 2 (**DIY**) you are to write a modular program based on your knowledge of the IPC144 subject. 
 
@@ -355,21 +354,6 @@ And then prints the student records sorted in descending order based on the mark
 667: [0  ] Kai Jacobs
 668: [0  ] Melani Hodge
 ```
-#### Sort Algorithm 
-V1.1
-> Use the following bubble sort algorithm for sorting:
-> ```text
-> Sort the Array "studentArray" with the array size kept in "size" as follows:
->   loop with i from 0  up to  i less than size - 1
->      loop with j from 0 up to j less than size - i - 1
->         if  mark of studentArray[j] is less than  mark of studentArray[j + 1]
->            swap them
->         end if
->      end loop
->   end loop
-> end sort
-> ```
-
 Modify the printGraph function to add the number labels to the beginning of the bar charts.
 
 Use the `printInt` function in `io` module to print the marks and the graph bar labels in widths of 3.
@@ -414,6 +398,7 @@ StMark.cpp
 ### Data Entry
 
 ```text
+grp.csv
 group3.csv
 x
 ```

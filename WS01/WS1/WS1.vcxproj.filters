@@ -15,16 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="file.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="graph.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="io.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="StMarks.cpp">
+    <ClCompile Include="graph.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
@@ -32,35 +26,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="correct_output.txt">
-      <Filter>Resource Files</Filter>
-    </Text>
-    <Text Include="group3.csv">
-      <Filter>Resource Files</Filter>
-    </Text>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\readme.md">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="group1.csv">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="group2.csv">
-      <Filter>Resource Files</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="file.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="StMark.h">
+    <ClInclude Include="io.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="graph.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="io.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -8,6 +8,7 @@ Description
 Revision History
 -----------------------------------------------------------
 Name            Date            Reason
+Abcedi Ilacas   2024/01/24      Workshop 1 part 2 (DIY)
 ***********************************************************************/
 #ifndef SENECA_STMARK_H
 #define SENECA_STMARK_H
@@ -21,6 +22,10 @@ namespace seneca {
       char surname[31];
       int mark;
    };
+
+   bool printReport(const char* filename);
+
+   void bubbleSort(StMark* studentArray, int size);
 
 }
 #endif // !SENECA_STMARK_H

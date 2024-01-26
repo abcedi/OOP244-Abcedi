@@ -1,0 +1,15 @@
+Workshop 1 Reflect
+Abcedi Ilacas
+138 180 211
+NAA
+ailacas1@myseneca.ca
+
+Reflecting on the completion of this workshop, I found it to be a valuable learning experience that helped me get several important concepts in C++ programming. Throughout the workshop, I encountered various challenges, with some aspects being more challenging than others.
+
+One of the most challenging parts for me was understanding the bubble sort algorithm. It can seem straightforward at first, I had to go deeper into the mechanics of the algorithm to make sure correct implementation. It required careful attention of array indices, comparisons, and swaps. But, through persistence and practice, I got a clearer understanding of how the bubble sort works and how to implement it effectively.
+
+Another big challenge was achieving proper alignment in the graph output in the printReport function. Making sure that the graph bars, labels, and student records aligned perfectly really needed attention to detail that it pissed me off. This task involved managing spaces, formatting, and conditional statements to handle different cases. It was important to make the output visually appealing and well-organized and perfect of course.
+
+Also, determining the correct rangeIndex for each range in the printReport function was hard. Accurately categorizing student marks into their proper ranges needed careful mathematical calculations and logic. Achieving the exact output took some time and debugging.
+
+This workshop gave an excellent opportunity to deepen my understanding of C++ programming concepts. While some aspects were challenging, they ultimately contributed to my growth as a programmer. Through overcoming these challenges and practicing problem solving, I've gained valuable skills that I can apply in future coding endeavors.

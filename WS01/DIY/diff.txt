@@ -1,0 +1,14 @@
+In line number 10 of your output:
+The output should be:
+100 | **************************************** 61                             |
+                                                                          ^
+But your output is: 
+100 | **************************************** 61                         |
+                                                                          ^
+
+Unmatched character details:
+The character in column 75 is supposed to be:
+  [Space] ASCII code(32)
+but you printed
+  [|] ASCII code(124)
+
