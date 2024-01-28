@@ -20,19 +20,7 @@ namespace seneca {
    /// </summary>
    void closeFile();
 
-   /// <summary>
-   /// Read one student record frome the opened student records file
-   /// </summary>
-   /// <param name="mark">, points to one StMark structure</param>
-   /// <returns>true if the record is read successfuly</returns>
-   bool readMark(StMark* mark);
 
-   /// <summary>
-   /// fills an array of StMark array with the records read from the opened student records file up to MAX_NO_RECS constant integer value.
-   /// </summary>
-   /// <param name="marks">, array of student marks</param>
-   /// <returns>the actual number of records read.</returns>
-   int readMarks(StMark* marks);
 }
 
 #endif // !SENECA_FILE_H

@@ -39,7 +39,7 @@ namespace seneca {
 	In this case, the function will return true, otherwise, it will return false with no memory allocation.*/
 	bool read(Assessment& assess, FILE* fptr) {
 		double tempMark;
-		char tempTitle[61] = { 0 };
+		char tempTitle[61];
 
 		if (fscanf(fptr, "%lf,%60[^\n]\n", &tempMark, tempTitle) == 2) {
 			tempTitle[60] = '\0';
@@ -60,9 +60,7 @@ namespace seneca {
 	void freeMem(Assessment*& aptr, int size) {
 		for (int i = 0; i < size; i++) {
 			delete aptr[i].m_mark;
-			aptr[i].m_mark = nullptr;
 			delete aptr[i].m_title;
-			aptr[i].m_title = nullptr;
 		}
 		delete[] aptr;
 		aptr = nullptr;
