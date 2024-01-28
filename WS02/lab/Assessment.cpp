@@ -70,10 +70,10 @@ namespace seneca {
 		for (int i = 0; i < size; i++) { // delete the dynamic double and the dynamic cString of all Assessment elements
 			delete aptr[i].m_mark;
 			aptr[i].m_mark = nullptr;
-			delete aptr[i].m_title;
+			delete[] aptr[i].m_title;
 			aptr[i].m_title = nullptr;
 		}
-		delete[] aptr; // delete the array itself
+		delete[] aptr; // delete the array itself - MAKE SURE TO USE [] FOR ARRAYS!!!!!!!!!!!! GAVE ME A HEARTATTACK LOOKING FOR THE ERROR!!
 		aptr = nullptr; // set the pointer to nullptr
 	}
 	
