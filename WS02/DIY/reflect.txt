@@ -1,0 +1,15 @@
+Workshop 2 Reflect
+Abcedi Ilacas
+138 180 211
+NAA
+ailacas1@myseneca.ca
+
+In this workshop, I dug into managing dynamic memory, specially through creating, managingm and deleting dynamic arrays and strings. The whole experience of working with Guest and Room structures really put into perspective how careful you have to be with memory in C++. Its very very very tedious and annoying in my opinion. Allocating memory with new and cleaning up with delete felt pretty straightforward at first, but i quickly realized how easy it is to mess things up like forgettig to set a pointer to nullptr after deleting it, which could lead to bugs.
+
+One thing that really stood out to me was the importance of clearing the input buffer. I didnt pay much attention to leftover characters in the input stream, but seeing how they can mess up subsequent inputs was an eye opener. Using my clearInputBuffer function before and after getting inputs was something I had to remind myself to do, but it makes sense to me now.
+
+Handling multiple guests in a room and making sure data was correctly inputted and stored was hard.
+
+The biggest headache and stree was for sure deealing with memory access violations. Getting those errors and trying to figure out why I was accessing memory I shoudnt be was frustrating and pissed me of multiple times. It took me a while to get that you really need to double check every single time you allocate or deallocate memory. Also making sure that every new has a corresponding delete was something I had to engrain into my brain.
+
+This workshop made me realize how important memory management is in C++ and careful you have to be with pointers and dynamic memory. It is definitely something new coming from C and Python. But I feel i got a better grasp on it now (I think).
