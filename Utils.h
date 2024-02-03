@@ -1,18 +1,3 @@
-/***********************************************************************
-// OOP244 Workshop 2 p1: tester program
-//
-// File	main.cpp
-// Version 1.0
-//
-// Author	Fardad Soleimanloo
-// Description
-// Helpful function utilities
-// Revision History
-// -----------------------------------------------------------
-// Name            Date            Reason
-//
-/////////////////////////////////////////////////////////////////
-***********************************************************************/
 #ifndef SENECA_UTILS_H
 #define SENECA_UTILS_H
 namespace seneca {
