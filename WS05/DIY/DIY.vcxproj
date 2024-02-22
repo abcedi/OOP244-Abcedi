@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{135e595f-0067-4feb-96b8-46c32153124e}</ProjectGuid>
+    <ProjectGuid>{90bbc603-8e89-4d33-be56-17847f854d45}</ProjectGuid>
     <RootNamespace>DIY</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -70,6 +70,18 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -127,11 +139,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Guitar.cpp" />
+    <ClCompile Include="Hero.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Power.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Guitar.h" />
+    <ClInclude Include="Hero.h" />
+    <ClInclude Include="Power.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\readme.md" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="correct_output.txt" />

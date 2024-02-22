@@ -1,0 +1,13 @@
+OOP244 Workshop #4 P2: Reflection
+File  reflect.txt
+Version 1.0
+Date: 2024-02-14
+Author Abcedi Ilacas
+
+
+Reflecting on this workshop I've deepened my understanding of object oriented programming and dynamic memory management.
+Building the guitar and guitarstr classes provided a concrete context to apply these abstract concepts, which made me learn more about it. By the use of constructors, destructors, and the rule of 3 I have come to appreciate the complex of managing resources in C++.
+The very very very challenging of addressing memory allocation issues, especially the difficult of deep copying with dynamically allocated memory, was at first torture.
+Overcoming these obstacles has given me a clearer insight into preventing memory leaks and data corruption. The process highlighted the importance of class design principles, such as using member initializer lists, maintaining const correctness, and managing the lifetimes of objects.
+Confronting and resolving access violations taught me to always ensure resources are allocated and initialized before they are accessed.
+Debugging error messages not only made my problem-solving abilities bettwe but also gave me a huge sense of achievement. The application of these concepts has made my foundational skills in C++ so much better and has prepared me to overcome more complex programming challenges.
